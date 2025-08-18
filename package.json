@@ -1,0 +1,33 @@
+{
+  "name": "security-bot",
+  "version": "1.0.0",
+  "description": "Professional cybersecurity Discord bot for security professionals",
+  "main": "index.js",
+  "type": "module",
+  "exports": [
+    "./dist/start-bot.js",
+    "./dist/start-manager.js"
+  ],
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src/index.ts --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@huggingface/inference": "^3.9.1",
+    "@huggingface/transformers": "^3.5.0",
+    "@lmstudio/sdk": "^1.1.1",
+    "axios": "^1.8.4",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.5.0",
+    "node-fetch": "^3.3.2",
+    "pm2": "^6.0.5"
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
