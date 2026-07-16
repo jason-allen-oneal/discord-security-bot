@@ -2,6 +2,10 @@
 
 A professional cybersecurity Discord bot designed for security professionals, providing comprehensive threat intelligence, compliance checks, vulnerability assessment, and security analysis tools.
 
+## WIP / Maintenance Note
+
+This repository is currently a prototype rather than a production-ready bot. It has no automated test suite or published release, and the last substantive implementation work predates the current maintenance pass. Validate every command and external integration before relying on it operationally.
+
 ## Features
 
 ### 🔍 **Threat Intelligence**
